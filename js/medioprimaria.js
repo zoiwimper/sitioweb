@@ -2,7 +2,7 @@
 function compararNumeros(num1, num2) {
     let mensajeElement = document.getElementById('e');
     if (num1 > num2) {
-        mensajeElement.textContent = `${num1} es mayor que ${num2}.`;
+        mensajeElement.textContent = `Felicidades! El número correcto es el.${num1}, ya que El número 8 es mayor que el número${num2} porque en una secuencia numérica, 8 está más lejos del cero que 5.`;
         mensajeElement.style.color = 'green';
     } else if (num1 < num2) {
         mensajeElement.textContent = `${num1} es menor que ${num2}.`;
